@@ -3,11 +3,11 @@ console.log("Conversão de Celsius e Fahrenheit \n1 - Celsius para Fahrenheit \n
 let conversao = parseInt(prompt("Insira a opção"));
 
 function conversaoCparaF(C) {
-  return 1.8 * C + 32;
+  return (1.8 * C + 32).toFixed(1);
 };
 
 function conversaoFparaC(F) {
-  return (F - 32) / 1.8;
+  return ((F - 32) / 1.8).toFixed(1);
 };
 
 while (conversao != 1 && conversao != 2) {
