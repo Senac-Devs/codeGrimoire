@@ -1,0 +1,12 @@
+console.log("Para conversão de Celsisus para Fahrenheit digite 1 ou digite 2 para conversão de fahrenheit para Celsius")
+let conversao = parseInt(prompt(""))
+
+if (conversao == 1){
+  let vcelsius = parseFloat(prompt("insira o valor em celsius"))
+  fahrenheit = vcelsius * 1,8 + 32 
+  console.log(fahrenheit)
+}else{
+  let vfahrenheit = parseFloat(prompt("insira o valor em fahrenheit"))
+  celsius = (vfahrenheit - 32) / 1.8
+  console.log(celsius)
+}
